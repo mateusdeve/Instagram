@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+.body {
+  background-color: #fafafa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
   display: flex;
-  flex-direction: column;
+  margin-left: auto;
+  width: 25px;
+}
+
+.img {
+  margin-top: 7px;
+}
+
+.appBar {
+  display: flex;
+  background-color: #fff !important;
+  height: 75px;
+  border-bottom: 1px solid #ccc;
   align-items: center;
+}
+
+.SvO5t {
+  background-color: #262626;
+  height: 28px;
+  margin: 0 16px;
+  transition: opacity .1s ease-out;
+  width: 1px;
+}
+
+.search {
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-left: 15%;
+  padding: 5px;
+  width: 200px;
+}
+
+.grid-search {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-left: 50px;
+}
+@media(max-width: 600px) {
+  .grid-search {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .mobile-none {
+    display: none;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.icon-color {
+  color: #1c1c1c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  margin-top: 60px;
+  padding-left: 21%;
+  padding-right:15%;
+}
+
+.avatar-large {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.login {
+  font-size: 30px;
+  color: #323232;
+  font-weight: 100;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.button-edit {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 8px 13px 8px 13px;
+  border: solid 1px #ccc;
+  font-size: 13px;
+}
+
+.ml {
+  margin-left: 20px !important;
+}
+
+.ml-edit {
+  margin-left: 40px !important;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.descricao {
+  margin-top: -8px;
+}
+
+a {
+  text-decoration:none; 
+}
+
+.color-site {
+  color: #00376b;
 }
