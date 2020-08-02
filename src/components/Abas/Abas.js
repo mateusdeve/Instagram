@@ -118,6 +118,45 @@ export default function SimpleTabs() {
       <TabPanel value={value} index={3}>
         Item Three
       </TabPanel>
+      <footer className="footer">
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">SOBRE</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">AJUDA</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">IMPRENSA</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">API</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">CARREIRAS</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">PRIVACIDADE</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">TERMOS</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">LOCALIZAÇÕES</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">CONTAS MAIS RELEVANTES</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">HASHTAGS</a>
+        </Grid>
+        <Grid item className="inline" xs={1}>
+          <a href="#" className="ml-foter">IDIOMA</a>
+        </Grid>
+        <Grid item xs={12} className="mt-foo">
+          <a className="a-copy">© 2020 INSTAGRAM DO FACEBOOK</a>
+        </Grid>
+        <Grid item className="grid"></Grid>
+      </footer>
       
     </div>
   );

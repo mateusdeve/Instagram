@@ -18,6 +18,9 @@
   height: 75px;
   border-bottom: 1px solid #ccc;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 .SvO5t {
@@ -63,6 +66,7 @@
   margin-top: 60px;
   padding-left: 21%;
   padding-right:15%;
+  padding-top: 80px;
 }
 
 .avatar-large {

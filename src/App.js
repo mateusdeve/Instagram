@@ -95,8 +95,6 @@ function App() {
       </Grid>
     </Grid>
     <SimpleTabs></SimpleTabs>
-
-
     </div>
   );
 }

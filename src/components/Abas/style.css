@@ -48,3 +48,33 @@
     background-image: url('../../assets/quinta.jpg');
     background-size: cover;
 }
+
+.ml-foter {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #00376b !important;
+    font-weight: 500;
+}
+
+.inline {
+    display: inline;
+}
+
+.a-copy {
+    font-size: 13px;
+    margin-left: 10px;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+
+.grid{
+    height: 50px;
+}
+
+.mt-foo {
+    margin-top: 17px !important;
+}
+
+.footer {
+    margin-top: 17px !important;
+}
