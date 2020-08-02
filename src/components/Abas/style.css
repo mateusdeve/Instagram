@@ -1,0 +1,50 @@
+.AppBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+}
+
+.line {
+    margin-top: 40px;
+    height: 3px;
+    border-top: 1px solid #ccc;
+}
+
+.teste {
+    background-color: aqua;
+}
+
+.PrivateTabIndicator-colorSecondary-4 {
+    background-color: #ccc !important;
+}
+
+.primeira{
+    height: 300px;
+    background-image: url('../../assets/primeira.jpg');
+    background-size: cover;
+}
+
+.segunda {
+    height: 300px;
+    background-image: url('../../assets/perfil.jpg');
+    background-size: cover;
+}
+
+.terceira {
+    height: 300px;
+    background-image: url('../../assets/terceira.jpg');
+    background-size: cover;
+}
+
+.quarta {
+    height: 300px;
+    background-image: url('../../assets/quarta.jpg');
+    background-size: cover;
+}
+
+.quinta {
+    height: 300px;
+    background-image: url('../../assets/quinta.jpg');
+    background-size: cover;
+}

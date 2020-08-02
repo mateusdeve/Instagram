@@ -6,11 +6,6 @@ import Avatar from '@material-ui/core/Avatar';
 
 import Grid from '@material-ui/core/Grid';
 
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-
-import Button from '@material-ui/core/Button';
-
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
@@ -20,6 +15,8 @@ import IconButton from '@material-ui/core/IconButton';
 import logo from './assets/logo.png'
 import imagem from './assets/instagram.png'
 import perfil from './assets/perfil.jpg'
+
+import SimpleTabs from './components/Abas/Abas'
 
 
 function App() {
@@ -64,7 +61,7 @@ function App() {
 
       <Grid item xs={8} className="ml">
 
-        <Grid xs={2} className="inline">
+        <Grid item xs={2} className="inline">
           <a className="login">mateuszp</a>
         </Grid>
         <Grid item xs={2} className="inline ml-edit">
@@ -75,9 +72,9 @@ function App() {
             <SettingsOutlinedIcon className="icon-color" />
           </IconButton>
         </Grid>
-        <Grid></Grid>
+        <Grid item></Grid>
         <div className="mt">
-          <Grid xs={2} className="inline">
+          <Grid item xs={2} className="inline">
             <a className="pub"><strong>5</strong> publicações</a>
           </Grid>
           <Grid item xs={2} className="inline ml">
@@ -87,17 +84,19 @@ function App() {
           <a className="pub"><strong>1.224</strong> seguindo</a>
           </Grid>
         </div>
-        <Grid>
+        <Grid item>
           <p><strong>Mateus Pires</strong></p>
         </Grid>
-        <Grid>
+        <Grid item>
           <p className="descricao">A.D.S <br/> Me dê alguns anos, tenho grandes planos.</p>
           <a href="https://github.com/mateusdeve" className="color-site"><strong> github.com/mateusdeve</strong></a>
         </Grid>
 
       </Grid>
-
     </Grid>
+    <SimpleTabs></SimpleTabs>
+
+
     </div>
   );
 }
